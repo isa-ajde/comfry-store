@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-elements {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
+
+.jd {
+  background: transparent;
+  filter: drop-shadow();
+}
